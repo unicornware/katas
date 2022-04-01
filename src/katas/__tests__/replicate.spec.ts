@@ -17,10 +17,7 @@ describe('unit:katas/replicate', () => {
   ]
 
   cases.forEach(({ expected, parameters }) => {
-    const args = pf(parameters, { min: true })
-    const returns = pf(expected, { min: true })
-
-    it(`should return ${returns} given ${args}`, () => {
+    it(`should return ${pf(expected)} given ${pf(parameters)}`, () => {
       expect(testSubject(...parameters)).to.deep.equal(expected)
     })
   })

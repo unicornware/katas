@@ -19,9 +19,7 @@ describe('unit:katas/realSize', () => {
   ]
 
   cases.forEach(({ expected, parameters }) => {
-    const args = pf(parameters, { min: true })
-
-    it(`should return ${expected} given ${args}`, () => {
+    it(`should return ${expected} given ${pf(parameters)}`, () => {
       expect(testSubject(...parameters)).to.equal(expected)
     })
   })

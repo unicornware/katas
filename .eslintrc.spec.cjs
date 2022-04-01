@@ -10,6 +10,12 @@
 const { Linter } = require('eslint')
 
 /**
+ * @type {string[]}
+ * @const DEFINED_TYPES - `jsdoc/no-undefined-types` options
+ */
+const DEFINED_TYPES = ['Mocha', 'NodeJS', 'never', 'unknown']
+
+/**
  * @type {Linter.Config}
  * @const config - ESLint configuration object
  */
@@ -99,13 +105,24 @@ const config = {
         '.mocharc.*'
       ],
       rules: {
-        'jsdoc/no-undefined-types': [1, { definedTypes: ['Mocha'] }]
+        'jsdoc/no-undefined-types': [1, { definedTypes: DEFINED_TYPES }]
       }
     },
     {
       files: ['__tests__/globals/chai.ts', '__tests__/matchers/**'],
       rules: {
-        'jsdoc/no-undefined-types': [1, { definedTypes: ['Chai'] }]
+        'jsdoc/no-undefined-types': [
+          1,
+          {
+            definedTypes: [...DEFINED_TYPES, 'Chai']
+          }
+        ]
+      }
+    },
+    {
+      files: ['__tests__/globals/**'],
+      rules: {
+        'jsdoc/no-undefined-types': [1, { definedTypes: DEFINED_TYPES }]
       }
     },
     {
