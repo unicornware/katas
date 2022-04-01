@@ -62,6 +62,8 @@ const SKIP_WORDS = [
   'impl',
   'instanceof',
   'jsonspec',
+  'kata',
+  'katas',
   'loadenv',
   'matcher',
   'matchers',
@@ -146,7 +148,15 @@ const config = {
           SEVERITY,
           Object.assign({}, OPTIONS, {
             ...OPTIONS,
-            skipWords: [...SKIP_WORDS, 'katas']
+            skipWords: [
+              ...SKIP_WORDS,
+              'disemvowel',
+              'lsrs',
+              'ndrd',
+              'scks',
+              'ths',
+              'wbst'
+            ]
           })
         ]
       }
