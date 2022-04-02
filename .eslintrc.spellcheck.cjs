@@ -41,6 +41,7 @@ const SKIP_WORDS = [
   'algs',
   'argv',
   'atoi',
+  'bool',
   'builtins',
   'chai',
   'ci',
