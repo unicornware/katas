@@ -90,6 +90,7 @@ const SKIP_WORDS = [
   'readline',
   'readonly',
   'sinon',
+  'str',
   'stringified',
   'strs',
   'testcase',
