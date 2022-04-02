@@ -83,7 +83,9 @@ const config = {
         'mocha/prefer-arrow-callback': 2,
         'mocha/valid-suite-description': [
           2,
-          { pattern: '^[.$#@a-z0-9(DELETE|GET|PATCH|POST|PUT)]*.+' }
+          {
+            pattern: '^[.$#@a-z0-9(DELETE|GET|PATCH|POST|PUT)]*.+'
+          }
         ],
         'mocha/valid-test-description': [2, { pattern: '^should.[a-z0-9]+.*' }],
         'prefer-arrow-callback': 0,

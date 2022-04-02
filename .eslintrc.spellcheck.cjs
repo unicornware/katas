@@ -19,7 +19,10 @@ const SEVERITY = 2
  * node element values (comment, identifier, string, string template, etc) and
  * will not check the entire node content if matched
  */
-const SKIP_IF_MATCH = [...DEFAULTS.skipIfMatch]
+const SKIP_IF_MATCH = [
+  ...DEFAULTS.skipIfMatch,
+  '([A-Za-z]+)?([\\d])([A-Za-z]+)?'
+]
 
 /**
  * @type {string[]}
