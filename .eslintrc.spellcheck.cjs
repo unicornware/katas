@@ -155,10 +155,12 @@ const config = {
             skipWords: [
               ...SKIP_WORDS,
               'disemvowel',
+              'dlrow',
               'erso',
               'loquen',
               'lsrs',
               'ndrd',
+              'olleh',
               'ountr',
               'scks',
               'ths',
