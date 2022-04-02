@@ -7,10 +7,10 @@
  * Given a string, `words`, where each word contains a number (`1` - `9`), the
  * function returns a string with the words sorted in ascending order.
  *
+ * @see https://codewars.com/kata/55c45be3b2079eccff00010f
+ *
  * @example order('is2 Thi1s T4est 3a') => 'Thi1s is2 3a T4est'
  * @example order('') => ''
- *
- * @see https://codewars.com/kata/55c45be3b2079eccff00010f
  *
  * @param {string} words - Words to sort
  * @return {string} String containing sorted words

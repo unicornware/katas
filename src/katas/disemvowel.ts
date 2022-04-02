@@ -8,10 +8,10 @@
  *
  * **Note**: This function does **not** consider `y` a vowel.
  *
+ * @see https://codewars.com/kata/52fba66badcd10859f00097e
+ *
  * @example
  *  disemvowel('This website is for losers LOL!') => 'Ths wbst s fr lsrs LL!'
- *
- * @see https://codewars.com/kata/52fba66badcd10859f00097e
  *
  * @param {string} str - String to remove vowels from
  * @return {string} `str` without vowels

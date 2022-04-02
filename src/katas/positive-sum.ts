@@ -7,11 +7,11 @@
  * Given an array of integers, `arr`, the function returns the sum of all
  * **positive** integers.
  *
+ * @see https://codewars.com/kata/5715eaedb436cf5606000381
+ *
  * @example positiveSum([]) => 0
  * @example positiveSum([1, -4, 7, 12]) => 20
  * @example positiveSum([-1, -2, -3, -4, -5]) => 0
- *
- * @see https://codewars.com/kata/5715eaedb436cf5606000381
  *
  * @param {number[]} arr - Integer array
  * @return {number} Sum of all positive integers
