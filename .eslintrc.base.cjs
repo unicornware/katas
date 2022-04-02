@@ -815,6 +815,12 @@ const config = {
   overrides: [
     ...require('./.eslintrc.spec.cjs').overrides,
     {
+      files: ['src/katas/**'],
+      rules: {
+        'unicorn/no-array-reduce': 0
+      }
+    },
+    {
       files: ['typings/**'],
       rules: {
         '@typescript-eslint/ban-types': 0,
