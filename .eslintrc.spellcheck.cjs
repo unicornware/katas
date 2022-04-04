@@ -68,6 +68,7 @@ const SKIP_WORDS = [
   'jsonspec',
   'kata',
   'katas',
+  'latin',
   'loadenv',
   'matcher',
   'matchers',
@@ -155,17 +156,26 @@ const config = {
             ...OPTIONS,
             skipWords: [
               ...SKIP_WORDS,
+              'atinlay',
               'disemvowel',
               'dlrow',
+              'ello',
               'erso',
+              'ig',
               'loquen',
               'lsrs',
               'ndrd',
               'olleh',
+              'oolcay',
+              'orldway',
               'ountr',
               'scks',
+              'siay',
+              'tay',
               'ths',
-              'wbst'
+              'tringsay',
+              'wbst',
+              'ymay'
             ]
           })
         ]
