@@ -17,18 +17,6 @@
  * @param {number[]} xs - Integer array
  * @return {number} Integer that occurs an odd number of times in `xs`
  */
-const findOdd = (xs: number[]): number => {
-  // If array only has one item, return first item
-  if (xs.length === 1) return xs[0]!
-
-  /** @const {Map<number, number>} occurrences - Occurrence map */
-  const occurrences = new Map<number, number>()
-
-  // Populate occurrence map
-  for (const num of xs) occurrences.set(num, (occurrences.get(num) ?? 0) + 1)
-
-  // Find and return map entry that has odd number of occurrences
-  return [...occurrences.entries()].find(entry => entry[1]! % 2 !== 0)![0]
-}
+const findOdd = (xs: number[]): number => xs.reduce((a, b) => a ^ b)
 
 export default findOdd
