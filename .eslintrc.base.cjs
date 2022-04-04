@@ -817,7 +817,8 @@ const config = {
     {
       files: ['src/katas/**'],
       rules: {
-        'unicorn/no-array-reduce': 0
+        'unicorn/no-array-reduce': 0,
+        'unicorn/no-unsafe-regex': 0
       }
     },
     {

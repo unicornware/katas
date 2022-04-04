@@ -14,15 +14,6 @@
  * @param {string} a - String to convert
  * @return {string} `a` in pig latin
  */
-const pigIt = (a: string): string => {
-  /** @const {string} delimiter - {@link a} separator */
-  const delimiter: string = ' '
-
-  // Convert each word in a to pig latin
-  return a
-    .split(delimiter)
-    .map(w => (/\w+/.test(w) ? `${w.slice(1)}${w[0]}ay` : w))
-    .join(delimiter)
-}
+const pigIt = (a: string): string => a.replace(/(\w)(\w+)*/g, '$2$1ay')
 
 export default pigIt
