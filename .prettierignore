@@ -7,6 +7,7 @@ coverage/*
 node_modules/*
 
 **/.gitkeep
+__tests__/report.json
 .eslintignore
 .env.*
 .env

@@ -74,6 +74,7 @@ const SKIP_WORDS = [
   'matchers',
   'mjs',
   'msg',
+  'multiline',
   'namespace',
   'ncc',
   'num',
@@ -173,6 +174,7 @@ const config = {
               'siay',
               'tay',
               'ths',
+              'tribonacci',
               'tringsay',
               'wbst',
               'ymay'

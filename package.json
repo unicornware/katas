@@ -51,6 +51,7 @@
     "@types/mocha": "9.1.0",
     "@types/mvdan-sh": "0.5.1",
     "@types/node": "16.0.0",
+    "@types/prettier": "2.4.4",
     "@types/sinon": "10.0.11",
     "@types/sinon-chai": "3.2.8",
     "@typescript-eslint/eslint-plugin": "5.13.0",
