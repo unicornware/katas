@@ -652,7 +652,16 @@ const config = {
       }
     ],
     'jsdoc/sort-tags': 0,
-    'jsdoc/tag-lines': [1, 'any', { count: 1, noEndLines: false, tags: {} }],
+    'jsdoc/tag-lines': [
+      1,
+      'any',
+      {
+        dropEndLines: true,
+        count: 1,
+        noEndLines: false,
+        tags: {}
+      }
+    ],
     'jsdoc/valid-types': [1, { allowEmptyNamepaths: true }],
     'keyword-spacing': 0,
     'lines-between-class-members': 0,

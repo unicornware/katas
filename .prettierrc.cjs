@@ -39,10 +39,15 @@ const config = {
         keepComments: true,
         keepPadding: false,
         parser: 'sh',
+        plugins: ['prettier-plugin-sh'],
         spaceRedirects: true,
         switchCaseIndent: true,
         variant: 0
       }
+    },
+    {
+      files: ['*.ts'],
+      parser: 'typescript'
     }
   ]
 }

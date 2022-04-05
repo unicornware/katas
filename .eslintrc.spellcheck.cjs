@@ -65,6 +65,7 @@ const SKIP_WORDS = [
   'handoff',
   'impl',
   'instanceof',
+  'jsdoc',
   'jsonspec',
   'kata',
   'katas',
