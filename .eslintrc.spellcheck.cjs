@@ -92,6 +92,7 @@ const SKIP_WORDS = [
   'racecar',
   'readline',
   'readonly',
+  'reformats',
   'sinon',
   'str',
   'stringified',

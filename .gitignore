@@ -96,3 +96,5 @@ types/
 # Files
 *.js
 *.zip
+scratch.cjs
+scratch.ts
