@@ -46,6 +46,7 @@ const SKIP_WORDS = [
   'chai',
   'ci',
   'cjs',
+  'codewars',
   'commitlint',
   'curr',
   'dedupe',
@@ -159,6 +160,7 @@ const config = {
             ...OPTIONS,
             skipWords: [
               ...SKIP_WORDS,
+              'ann',
               'atinlay',
               'disemvowel',
               'dlrow',
