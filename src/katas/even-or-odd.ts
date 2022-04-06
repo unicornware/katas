@@ -9,12 +9,12 @@
  *
  * @see https://codewars.com/kata/53da3dbb4a5168369a0000fe
  *
- * @example even_or_odd(-4) => 'Even'
- * @example even_or_odd(-3) => 'Odd'
- * @example even_or_odd(0) => 'Even'
- * @example even_or_odd(1) => 'Odd'
- * @example even_or_odd(2) => 'Even'
- * @example even_or_odd(7) => 'Odd'
+ * @example even_or_odd(-4) // 'Even'
+ * @example even_or_odd(-3) // 'Odd'
+ * @example even_or_odd(0) // 'Even'
+ * @example even_or_odd(1) // 'Odd'
+ * @example even_or_odd(2) // 'Even'
+ * @example even_or_odd(7) // 'Odd'
  *
  * @param {number} n - Integer to check
  * @return {string} `'Even'` if `n` is an even number, `'Odd`' otherwise

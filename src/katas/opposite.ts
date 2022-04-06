@@ -8,10 +8,10 @@
  *
  * @see https://codewars.com/kata/56dec885c54a926dcd001095
  *
- * @example opposite(0) => 0
- * @example opposite(1) => -1
- * @example opposite(14) => -14
- * @example opposite(-34) => 34
+ * @example opposite(0) // 0
+ * @example opposite(1) // -1
+ * @example opposite(14) // -14
+ * @example opposite(-34) // 34
  *
  * @param {number} n - Number to negate
  * @return {number} Negated counterpart

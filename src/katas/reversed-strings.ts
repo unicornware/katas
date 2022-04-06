@@ -8,8 +8,8 @@
  *
  * @see https://codewars.com/kata/5168bb5dfe9a00b126000018
  *
- * @example solution('hello') => 'olleh'
- * @example solution('world') => 'dlrow'
+ * @example solution('hello') // 'olleh'
+ * @example solution('world') // 'dlrow'
  *
  * @param {string} str - String to reverse
  * @return {string} Reversed string

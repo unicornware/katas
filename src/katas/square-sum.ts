@@ -9,8 +9,8 @@
  *
  * @see https://codewars.com/kata/515e271a311df0350d00000f
  *
- * @example squareSum([1, 2, 2]) => 9
- * @example squareSum([]) => 0
+ * @example squareSum([1, 2, 2]) // 9
+ * @example squareSum([]) // 0
  *
  * @param {number[]} arr - Integer array
  * @return {number} Sum of squares in `arr`

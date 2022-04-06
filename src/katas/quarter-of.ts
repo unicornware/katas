@@ -9,9 +9,9 @@
  *
  * @see https://codewars.com/kata/5ce9c1000bab0b001134f5af
  *
- * @example quarterOf(2) => 1
- * @example quarterOf(6) => 2
- * @example quarterOf(11) => 4
+ * @example quarterOf(2) // 1
+ * @example quarterOf(6) // 2
+ * @example quarterOf(11) // 4
  *
  * @param {number} month - Month as integer
  * @return {number} Quarter of the year

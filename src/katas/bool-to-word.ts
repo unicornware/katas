@@ -9,8 +9,8 @@
  *
  * @see https://codewars.com/kata/53369039d7ab3ac506000467
  *
- * @example boolToWord(false) => 'No'
- * @example boolToWord(true) => 'Yes'
+ * @example boolToWord(false) // 'No'
+ * @example boolToWord(true) // 'Yes'
  *
  * @param {boolean} bool - Boolean to convert into word
  * @return {string} `'Yes'` if `bool` is `true`, `'No`' otherwise

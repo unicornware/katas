@@ -11,7 +11,7 @@
  * @see https://codewars.com/kata/52fba66badcd10859f00097e
  *
  * @example
- *  disemvowel('This website is for losers LOL!') => 'Ths wbst s fr lsrs LL!'
+ *  disemvowel('This website is for losers LOL!') // 'Ths wbst s fr lsrs LL!'
  *
  * @param {string} str - String to remove vowels from
  * @return {string} `str` without vowels

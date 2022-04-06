@@ -11,8 +11,8 @@
  *
  * @see https://codewars.com/kata/514b92a657cdc65150000006
  *
- * @example solution(-1) => 0
- * @example solution(10) => 23
+ * @example solution(-1) // 0
+ * @example solution(10) // 23
  *
  * @param {number} number - Multiples max
  * @return {number} Sum of all multiples of `3` or `5` less than `number`

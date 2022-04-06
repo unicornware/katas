@@ -11,8 +11,8 @@
  *
  * @see https://codewars.com/kata/54ff3102c1bad923760001f3
  *
- * @example getCount('abracadabra') => 5
- * @example getCount('the quick brown fox jumps over the lazy dog') => 11
+ * @example getCount('abracadabra') // 5
+ * @example getCount('the quick brown fox jumps over the lazy dog') // 11
  *
  * @param {string} str - String to check
  * @return {number} Total numbers of vowels in `str`

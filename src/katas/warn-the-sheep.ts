@@ -19,8 +19,8 @@
  *
  * @see https://codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
  *
- * @example warnTheSheep(['sheep', 'wolf', 'sheep']) => // sheep warning
- * @example warnTheSheep(['sheep', 'sheep', 'wolf']) => // wolf warning
+ * @example warnTheSheep(['sheep', 'wolf', 'sheep']) // sheep warning
+ * @example warnTheSheep(['sheep', 'sheep', 'wolf']) // wolf warning
  *
  * @param {string[]} queue - Sheep / wolf queue
  * @return {string} Warning message

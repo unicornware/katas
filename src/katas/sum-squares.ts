@@ -33,13 +33,13 @@ type List = OneOrMany<
  *
  * @see https://codewars.com/kata/57882daf90b2f375280000ad
  *
- * @example SumSquares([]) => 0
- * @example SumSquares([[]]) => 0
- * @example SumSquares([1, 2, 3]) => 14
- * @example SumSquares([[1, 2], 3]) => 14
- * @example SumSquares([[[[[[[[[1]]]]]]]]]) => 1
- * @example SumSquares([10, [[10], 10], [10]]) => 400
- * @example SumSquares([1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]) => 325
+ * @example SumSquares([]) // 0
+ * @example SumSquares([[]]) // 0
+ * @example SumSquares([1, 2, 3]) // 14
+ * @example SumSquares([[1, 2], 3]) // 14
+ * @example SumSquares([[[[[[[[[1]]]]]]]]]) // 1
+ * @example SumSquares([10, [[10], 10], [10]]) // 400
+ * @example SumSquares([1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]) // 325
  *
  * @param {List} l - Multi-dimensional integer list
  * @return {number} Sum of squares in `list`

@@ -8,11 +8,11 @@
  *
  * @see https://codewars.com/kata/5694cb0ec554589633000036
  *
- * @example factorial(0) => 1
- * @example factorial(1) => 1
- * @example factorial(2) => 2
- * @example factorial(3) => 6
- * @example factorial(13) => 6227020800
+ * @example factorial(0) // 1
+ * @example factorial(1) // 1
+ * @example factorial(2) // 2
+ * @example factorial(3) // 6
+ * @example factorial(13) // 6227020800
  *
  * @param {number} n - Integer
  * @return {number} `n!`

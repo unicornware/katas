@@ -9,9 +9,9 @@
  *
  * @see https://codewars.com/kata/5715eaedb436cf5606000381
  *
- * @example positiveSum([]) => 0
- * @example positiveSum([1, -4, 7, 12]) => 20
- * @example positiveSum([-1, -2, -3, -4, -5]) => 0
+ * @example positiveSum([]) // 0
+ * @example positiveSum([1, -4, 7, 12]) // 20
+ * @example positiveSum([-1, -2, -3, -4, -5]) // 0
  *
  * @param {number[]} arr - Integer array
  * @return {number} Sum of all positive integers

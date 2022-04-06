@@ -9,9 +9,9 @@
  *
  * @see https://codewars.com/kata/52685f7382004e774f0001f7
  *
- * @example humanReadable(0) => '00:00:00'
- * @example humanReadable(60) => '00:01:00'
- * @example humanReadable(359999) => '99:59:59'
+ * @example humanReadable(0) // '00:00:00'
+ * @example humanReadable(60) // '00:01:00'
+ * @example humanReadable(359999) // '99:59:59'
  *
  * @param {number} seconds - Time in seconds
  * @return {string} Time in human-readable format (`HH:MM:SS`)
