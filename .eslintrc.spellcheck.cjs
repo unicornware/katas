@@ -174,6 +174,7 @@ const config = {
               'oolcay',
               'orldway',
               'ountr',
+              'reduc',
               'scks',
               'siay',
               'tay',
