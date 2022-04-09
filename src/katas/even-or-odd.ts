@@ -1,13 +1,12 @@
 /**
  * @file Katas - even_or_odd
  * @module katas/even_or_odd
+ * @see https://codewars.com/kata/53da3dbb4a5168369a0000fe
  */
 
 /**
  * Given an integer, `n`, the function returns `'Even'` if `n` is an even
  * number, and `'Odd'` if `n` is an odd number.
- *
- * @see https://codewars.com/kata/53da3dbb4a5168369a0000fe
  *
  * @example even_or_odd(-4) // 'Even'
  * @example even_or_odd(-3) // 'Odd'

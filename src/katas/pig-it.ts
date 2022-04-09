@@ -1,12 +1,11 @@
 /**
  * @file Katas - pigIt
  * @module katas/pigIt
+ * @see https://codewars.com/kata/520b9d2ad5c005041100000f
  */
 
 /**
  * Given a string, `a`, the function returns the string's pig latin equivalent.
- *
- * @see https://codewars.com/kata/520b9d2ad5c005041100000f
  *
  * @example pigIt('Pig latin is cool') // 'igPay atinlay siay oolcay'
  * @example pigIt('Hello world !') // 'elloHay orldway !'

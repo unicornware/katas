@@ -1,13 +1,12 @@
 /**
  * @file Katas - repeatStr
  * @module katas/repeatStr
+ * @see https://codewars.com/kata/57a0e5c372292dd76d000d7e
  */
 
 /**
  * Given a string, `s`, the function returns a string containing `str` repeated
  * `n` times.
- *
- * @see https://codewars.com/kata/57a0e5c372292dd76d000d7e
  *
  * @example repeatStr(6, 'I') // 'IIIIII'
  * @example repeatStr(5, 'Hello') // 'HelloHelloHelloHelloHello'

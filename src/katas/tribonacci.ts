@@ -1,13 +1,12 @@
 /**
  * @file Katas - tribonacci
  * @module katas/tribonacci
+ * @see https://codewars.com/kata/556deca17c58da83c00002db
  */
 
 /**
  * Given a starting sequence, `[a, b, c]`, the function returns an array with
  * the first `n` elements of the sequence.
- *
- * @see https://codewars.com/kata/556deca17c58da83c00002db
  *
  * @example tribonacci([1, 1, 1], 10) // [1, 1, 1, 3, 5, 9, 17, 31, 57, 105]
  * @example tribonacci([0, 0, 1], 10) // [0, 0, 1, 1, 2, 4, 7, 13, 24, 44]

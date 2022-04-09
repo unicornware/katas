@@ -1,12 +1,11 @@
 /**
  * @file Katas - removeChar
  * @module katas/removeChar
+ * @see https://codewars.com/kata/56bc28ad5bdaeb48760009b0
  */
 
 /**
  * Removes the first and last characters of `str`.
- *
- * @see https://codewars.com/kata/56bc28ad5bdaeb48760009b0
  *
  * @example removeChar('eloquent') // 'loquen'
  * @example removeChar('person') // 'erso'

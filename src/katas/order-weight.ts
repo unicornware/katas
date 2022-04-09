@@ -1,14 +1,13 @@
 /**
  * @file Katas - orderWeight
  * @module katas/orderWeight
+ * @see https://codewars.com/kata/55c6126177c9441a570000cc
  */
 
 /**
  * Given a string with the weights of each "Fat to Fit Club (FFC)" member, the
  * function returns a string with the weights sorted in ascending order by the
  * sum of their digits.
- *
- * @see https://codewars.com/kata/55c6126177c9441a570000cc
  *
  * @example orderWeight('56 74 100 99 86 180 90') // '100 180 90 56 74 86 99'
  *

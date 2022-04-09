@@ -1,12 +1,11 @@
 /**
  * @file Katas - squareDigits
  * @module katas/squareDigits
+ * @see https://codewars.com/kata/546e2562b03326a88e000020
  */
 
 /**
  * Squares every digit in `num`.
- *
- * @see https://codewars.com/kata/546e2562b03326a88e000020
  *
  * @example squareDigits(9119) // 811181
  * @example squareDigits(1234) // 14916

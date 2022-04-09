@@ -1,6 +1,7 @@
 /**
  * @file Katas - SumSquares
  * @module katas/SumSquares
+ * @see https://codewars.com/kata/57882daf90b2f375280000ad
  */
 
 import type { OneOrMany } from '@flex-development/tutils'
@@ -30,8 +31,6 @@ type List = OneOrMany<
 /**
  * Given a multi-dimensional list of integers, `l`, the function squares all
  * values in `list` and returns the sum.
- *
- * @see https://codewars.com/kata/57882daf90b2f375280000ad
  *
  * @example SumSquares([]) // 0
  * @example SumSquares([[]]) // 0

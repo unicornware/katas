@@ -1,6 +1,7 @@
 /**
  * @file Katas - warnTheSheep
  * @module katas/warnTheSheep
+ * @see https://codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
  */
 
 /**
@@ -16,8 +17,6 @@
  * If a sheep is about to be eaten, the function will return **"Oi! Sheep number
  * `N`! You are about to be eaten by a wolf!"** where `N` is the sheep's
  * position in the queue.
- *
- * @see https://codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
  *
  * @example warnTheSheep(['sheep', 'wolf', 'sheep']) // sheep warning
  * @example warnTheSheep(['sheep', 'sheep', 'wolf']) // wolf warning

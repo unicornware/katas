@@ -1,14 +1,13 @@
 /**
  * @file Katas - gapInPrimes
  * @module katas/gapInPrimes
+ * @see https://codewars.com/kata/561e9c843a2ef5a40c0000a4
  */
 
 /**
  * [Prime Gap][1] calculator.
  *
  * [1]: http://mathworld.wolfram.com/PrimeGaps.html
- *
- * @see https://codewars.com/kata/561e9c843a2ef5a40c0000a4
  */
 class G964 {
   /**

@@ -1,13 +1,12 @@
 /**
  * @file Katas - countSmileys
  * @module katas/countSmileys
+ * @see https://codewars.com/kata/583203e6eb35d7980400002a
  */
 
 /**
  * Given an array, `arr`, the function returns the total number of smiley faces
  * in the array.
- *
- * @see https://codewars.com/kata/583203e6eb35d7980400002a
  *
  * @example countSmileys([':)', ';(', ';}', ':-D']) // 2
  * @example countSmileys([';D', ':-(', ':-)', ';~)']) // 3

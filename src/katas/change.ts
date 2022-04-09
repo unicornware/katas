@@ -1,6 +1,7 @@
 /**
  * @file Katas - change
  * @module katas/change
+ * @see https://codewars.com/kata/59de1e2fe50813a046000124
  */
 
 /**
@@ -10,8 +11,6 @@
  * If the phone number found in `s` isn't in the format `+1-xxx-xxx-xxxx` (where
  * each `x` is a digit), or `version` isn't a non-integer float, the function
  * will return `'ERROR: VERSION or PHONE'`.
- *
- * @see https://codewars.com/kata/59de1e2fe50813a046000124
  *
  * @example
  *  import dedent from 'ts-dedent'

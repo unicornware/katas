@@ -1,13 +1,12 @@
 /**
  * @file Katas - boolToWord
  * @module katas/boolToWord
+ * @see https://codewars.com/kata/53369039d7ab3ac506000467
  */
 
 /**
  * Given a boolean, `bool`, the function returns `'Yes'` if `bool` is `true`, or
  * `'No'` if `bool` is `false`.
- *
- * @see https://codewars.com/kata/53369039d7ab3ac506000467
  *
  * @example boolToWord(false) // 'No'
  * @example boolToWord(true) // 'Yes'

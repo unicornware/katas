@@ -1,6 +1,7 @@
 /**
  * @file Katas - realSize
  * @module katas/realSize
+ * @see https://codewars.com/kata/57f032307b45ef9c8f0001dd
  */
 
 import type { OneOrMany } from '@flex-development/tutils'
@@ -13,8 +14,6 @@ type Arrays = OneOrMany<OneOrMany<number[] | number>>[]
 /**
  * Given a multi-dimensional integer array, `arrays`, the function returns the
  * total number of integers stored inside the array.
- *
- * @see https://codewars.com/kata/57f032307b45ef9c8f0001dd
  *
  * @example realSize([]) // 0
  * @example realSize([[]]) // 0

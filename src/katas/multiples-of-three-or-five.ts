@@ -1,6 +1,7 @@
 /**
  * @file Katas - multiplesOfThreeOrFive
  * @module katas/multiplesOfThreeOrFive
+ * @see https://codewars.com/kata/514b92a657cdc65150000006
  */
 
 /**
@@ -8,8 +9,6 @@
  * `3` or `5` less than `number`.
  *
  * If `number` is negative, `0` will be returned.
- *
- * @see https://codewars.com/kata/514b92a657cdc65150000006
  *
  * @example solution(-1) // 0
  * @example solution(10) // 23

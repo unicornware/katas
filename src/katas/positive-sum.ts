@@ -1,13 +1,12 @@
 /**
  * @file Katas - positiveSum
  * @module katas/positiveSum
+ * @see https://codewars.com/kata/5715eaedb436cf5606000381
  */
 
 /**
  * Given an array of integers, `arr`, the function returns the sum of all
  * **positive** integers.
- *
- * @see https://codewars.com/kata/5715eaedb436cf5606000381
  *
  * @example positiveSum([]) // 0
  * @example positiveSum([1, -4, 7, 12]) // 20

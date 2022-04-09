@@ -1,6 +1,7 @@
 /**
  * @file Katas - johnAndAnnCodewars
  * @module katas/johnAndAnnCodewars
+ * @see https://codewars.com/kata/57591ef494aba64d14000526
  */
 
 /**
@@ -8,8 +9,6 @@
  *
  * This class is dedicated to calculating the number of katas completed by Ann
  * and John during a certain number of days.
- *
- * @see https://codewars.com/kata/57591ef494aba64d14000526
  */
 class G964 {
   /**

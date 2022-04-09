@@ -1,6 +1,7 @@
 /**
  * @file Katas - digitalRoot
  * @module katas/digitalRoot
+ * @see https://codewars.com/kata/541c8630095125aba6000c00
  */
 
 /**
@@ -9,8 +10,6 @@
  * Given a number, `n`, the functions returns the sum of all digits in `n`.
  *
  * [1]: https://en.wikipedia.org/wiki/Digital_root
- *
- * @see https://codewars.com/kata/541c8630095125aba6000c00
  *
  * @example digitalRoot(16) // 17
  * @example digitalRoot(942) // 6

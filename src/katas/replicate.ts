@@ -1,12 +1,11 @@
 /**
  * @file Katas - replicate
  * @module katas/replicate
+ * @see https://codewars.com/kata/57547f9182655569ab0008c4
  */
 
 /**
  * Returns an array containing `number` repeated `times` times.
- *
- * @see https://codewars.com/kata/57547f9182655569ab0008c4
  *
  * @example replicate(-5, 3) // []
  * @example replicate(0, 2) // []

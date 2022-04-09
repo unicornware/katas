@@ -1,14 +1,13 @@
 /**
  * @file Katas - disemvowel
  * @module katas/disemvowel
+ * @see https://codewars.com/kata/52fba66badcd10859f00097e
  */
 
 /**
  * Removes all vowels from `str`.
  *
  * **Note**: This function does **not** consider `y` a vowel.
- *
- * @see https://codewars.com/kata/52fba66badcd10859f00097e
  *
  * @example
  *  disemvowel('This website is for losers LOL!') // 'Ths wbst s fr lsrs LL!'

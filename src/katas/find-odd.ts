@@ -1,13 +1,12 @@
 /**
  * @file Katas - findOdd
  * @module katas/findOdd
+ * @see https://codewars.com/kata/54da5a58ea159efa38000836
  */
 
 /**
  * Given an array of integers, `xs`, the function returns the integer that is
  * found an odd number of times.
- *
- * @see https://codewars.com/kata/54da5a58ea159efa38000836
  *
  * @example findOdd([0]) // 0
  * @example findOdd([1, 1, 2]) // 2

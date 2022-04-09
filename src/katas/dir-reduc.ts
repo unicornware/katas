@@ -1,6 +1,7 @@
 /**
  * @file Katas - dirReduc
  * @module katas/dirReduc
+ * @see https://codewars.com/kata/550f22f4d758534c1100025a
  */
 
 /**
@@ -11,8 +12,6 @@
  * Going to one direction and coming back the opposite direction _right away_ is
  * a needless effort. Given a set of directions, the functions returns an array
  * with all extraneous directions removed.
- *
- * @see https://codewars.com/kata/550f22f4d758534c1100025a
  *
  * @example dirReduc(['NORTH', 'SOUTH', 'WEST']) // ['WEST']
  * @example dirReduc(['NORTH', 'SOUTH', 'EAST', 'WEST']) // []

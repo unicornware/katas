@@ -1,13 +1,12 @@
 /**
  * @file Katas - squareSum
  * @module katas/squareSum
+ * @see https://codewars.com/kata/515e271a311df0350d00000f
  */
 
 /**
  * Given an array of numbers, `arr`, the functions squares each number in `arr`
  * and returns the sum.
- *
- * @see https://codewars.com/kata/515e271a311df0350d00000f
  *
  * @example squareSum([1, 2, 2]) // 9
  * @example squareSum([]) // 0

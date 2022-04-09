@@ -1,13 +1,12 @@
 /**
  * @file Katas - humanReadable
  * @module katas/humanReadable
+ * @see https://codewars.com/kata/52685f7382004e774f0001f7
  */
 
 /**
  * Given a non-negative integer, `seconds`, the functions returns the time in a
  * human-readable format (`HH:MM:SS`).
- *
- * @see https://codewars.com/kata/52685f7382004e774f0001f7
  *
  * @example humanReadable(0) // '00:00:00'
  * @example humanReadable(60) // '00:01:00'

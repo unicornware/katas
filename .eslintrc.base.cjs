@@ -833,6 +833,33 @@ const config = {
       }
     },
     {
+      files: ['src/katas/*.ts'],
+      rules: {
+        'jsdoc/require-file-overview': [
+          1,
+          {
+            tags: {
+              file: {
+                initialCommentsOnly: true,
+                mustExist: true,
+                preventDuplicates: true
+              },
+              module: {
+                initialCommentsOnly: true,
+                mustExist: true,
+                preventDuplicates: true
+              },
+              see: {
+                initialCommentsOnly: false,
+                mustExist: true,
+                preventDuplicates: false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
       files: ['typings/**'],
       rules: {
         '@typescript-eslint/ban-types': 0,
