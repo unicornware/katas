@@ -38,6 +38,7 @@ const SKIP_WORD_IF_MATCH = []
  */
 const SKIP_WORDS = [
   ...DEFAULTS.skipWords,
+  'abc',
   'algs',
   'argv',
   'atoi',
