@@ -64,10 +64,10 @@ const toRange = (arr: number[]): string => {
   /** @const {string[]} ranges - Ranges found in {@link arr} */
   const ranges: string[] = []
 
-  /** @const {number} j - Lower bound of current range in {@link arr} */
+  /** @var {number} j - Lower bound of current range in {@link arr} */
   let j: number
 
-  /** @const {number} k - Upper bound of current range in {@link arr} */
+  /** @var {number} k - Upper bound of current range in {@link arr} */
   let k: number
 
   /** Get ranges @see https://stackoverflow.com/a/2270987/13150444 */

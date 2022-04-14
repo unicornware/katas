@@ -972,10 +972,35 @@ const config = {
           name: 'namepath-defining',
           required: ['name', 'type']
         },
-        param: {
+        extends: {
+          name: 'namepath-defining',
+          required: ['type']
+        },
+        implements: {
+          name: 'namepath-defining',
+          required: ['type']
+        },
+        member: {
+          name: 'namepath-defining',
           required: ['name', 'type']
         },
+        param: {
+          name: 'namepath-defining',
+          required: ['name', 'type']
+        },
+        return: {
+          name: 'namepath-defining',
+          required: ['type']
+        },
         throws: {
+          name: 'namepath-defining',
+          required: ['type']
+        },
+        var: {
+          name: 'namepath-defining',
+          required: ['name', 'type']
+        },
+        yield: {
           name: 'namepath-defining',
           required: ['type']
         }
@@ -984,7 +1009,10 @@ const config = {
         augments: 'extends',
         constant: 'const',
         fileoverview: 'file',
-        returns: 'return'
+        member: 'member',
+        returns: 'return',
+        var: 'var',
+        yields: 'yield'
       }
     }
   }

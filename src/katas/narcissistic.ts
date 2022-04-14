@@ -25,10 +25,10 @@ const narcissistic = (value: number): boolean => {
   // If value is a single digit, value is narcissistic
   if (value <= 9) return true
 
-  /** @const {number} n - Copy of {@link value} */
+  /** @var {number} n - Copy of {@link value} */
   let n: number = value
 
-  /** @const {number} sum - Total sum */
+  /** @var {number} sum - Total sum */
   let sum: number = 0
 
   // Iterate through digits starting from rightmost digit

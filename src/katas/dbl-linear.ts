@@ -25,10 +25,10 @@ const dblLinear = (n: number): number => {
   /** @const {number[]} u - Sequence */
   const u: number[] = [1]
 
-  /** @const {number} j - Index of x in {@link u} used to calculate y */
+  /** @var {number} j - Index of x in {@link u} used to calculate y */
   let j: number = 0
 
-  /** @const {number} k - Index of x in {@link u} used to calculate z */
+  /** @var {number} k - Index of x in {@link u} used to calculate z */
   let k: number = 0
 
   // Build sequence up to index n (inclusive)

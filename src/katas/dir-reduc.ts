@@ -20,7 +20,7 @@
  * @return {string[]} `arr` with extraneous directions removed
  */
 const dirReduc = (arr: string[]): string[] => {
-  /** @const {number} i - Index of current direction in {@link arr} */
+  /** @var {number} i - Index of current direction in {@link arr} */
   let i: number = 0
 
   // Reduce directions

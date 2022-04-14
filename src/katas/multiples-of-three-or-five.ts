@@ -17,7 +17,7 @@
  * @return {number} Sum of all multiples of `3` or `5` less than `number`
  */
 const solution = (number: number): number => {
-  /** @const {number} sum - Sum of all multiples */
+  /** @var {number} sum - Sum of all multiples */
   let sum: number = 0
 
   // Find multiples

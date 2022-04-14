@@ -16,7 +16,7 @@
  * @return {string} Time in human-readable format (`HH:MM:SS`)
  */
 const humanReadable = (seconds: number): string => {
-  /** @const {string} formatted - {@link seconds} in human-readable format */
+  /** @var {string} formatted - {@link seconds} in human-readable format */
   let formatted: string = ''
 
   // Convert seconds into human-readable time

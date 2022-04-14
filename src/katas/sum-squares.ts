@@ -47,7 +47,7 @@ const SumSquares = (l: List): number => {
   // Base case: If arrays is empty, return 0
   if (l.length === 0) return l.length
 
-  /** @const {List} copies - Copy of {@link l} */
+  /** @var {List} copies - Copy of {@link l} */
   let copies: typeof l = [...l]
 
   /** @const {List[0]} c - First item in {@link copies} */

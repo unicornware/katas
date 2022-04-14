@@ -23,7 +23,7 @@ const digitalRoot = (n: number): number => {
   // Base case: If n is a single digit number, return n
   if (n <= 9) return n
 
-  /** @const {number} sum - Sum of all digits in {@link n} */
+  /** @var {number} sum - Sum of all digits in {@link n} */
   let sum: number = 0
 
   // Iterate through digits starting from rightmost digit

@@ -28,13 +28,13 @@ const warnTheSheep = (queue: string[]): string => {
   // Reverse queue
   queue = queue.reverse()
 
-  /** @const {string | undefined} curr - Current item in {@link queue} */
+  /** @var {string | undefined} curr - Current item in {@link queue} */
   let curr: string | undefined = queue.shift()
 
-  /** @const {string | undefined} prev - Item before {@link curr} */
+  /** @var {string | undefined} prev - Item before {@link curr} */
   let prev: string | undefined
 
-  /** @const {number} sheep - Sheep count */
+  /** @var {number} sheep - Sheep count */
   let sheep: number = 0
 
   // Check queue for wolves disguised as sheep
