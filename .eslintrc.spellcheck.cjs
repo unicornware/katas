@@ -185,6 +185,8 @@ const config = {
               'ths',
               'tribonacci',
               'tringsay',
+              'tte',
+              'tter',
               'wbst',
               'ymay'
             ]
