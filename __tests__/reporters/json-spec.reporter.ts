@@ -15,7 +15,7 @@ import fs from 'node:fs'
  *
  * @see https://mochajs.org/api/tutorial-custom-reporter.html
  *
- * @extends Mocha.reporters.Spec
+ * @extends {Mocha.reporters.Spec}
  */
 class Reporter extends Mocha.reporters.Spec {
   /**

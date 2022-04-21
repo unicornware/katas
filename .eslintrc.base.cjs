@@ -196,14 +196,14 @@ const config = {
       {
         default: {
           memberTypes: [
-            'signature',
-
             'static-field',
             'decorated-field',
             'instance-field',
             'abstract-field',
 
             'constructor',
+
+            'signature',
 
             'static-get',
             'static-set',

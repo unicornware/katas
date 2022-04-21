@@ -21,6 +21,7 @@ const SEVERITY = 2
  */
 const SKIP_IF_MATCH = [
   ...DEFAULTS.skipIfMatch,
+  '[`].[`]\\w+',
   '([A-Za-z]+)?([\\d])([A-Za-z]+)?'
 ]
 
@@ -60,6 +61,7 @@ const SKIP_WORDS = [
   'enums',
   'esm',
   'explicitly',
+  'fibonacci',
   'filenames',
   'formatter',
   'fs',
