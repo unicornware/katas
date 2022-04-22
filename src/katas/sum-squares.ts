@@ -13,18 +13,18 @@ type List = OneOrMany<
   OneOrMany<
     | number[]
     | OneOrMany<
+      | number[]
+      | OneOrMany<
         | number[]
         | OneOrMany<
+          | number[]
+          | OneOrMany<
             | number[]
-            | OneOrMany<
-                | number[]
-                | OneOrMany<
-                    | number[]
-                    | OneOrMany<number[] | OneOrMany<number[] | number>>
-                  >
-              >
+            | OneOrMany<number[] | OneOrMany<number[] | number>>
           >
+        >
       >
+    >
   >
 >[]
 

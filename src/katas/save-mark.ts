@@ -64,8 +64,7 @@ const saveMark = (c1: string, c2: string): string => {
   const delta_lamda: number = radians(lon2 - lon1)
 
   /** @const {number} a - Haversine formula `a` value */
-  const a: number =
-    Math.sin(delta_phi / 2) ** 2 +
+  const a: number = Math.sin(delta_phi / 2) ** 2 +
     Math.cos(phi1) * Math.cos(phi2) * Math.sin(delta_lamda / 2) ** 2
 
   /** @const {number} c - Haversine formula `c` value */

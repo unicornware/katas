@@ -2,10 +2,10 @@
 
 ## Overview
 
-[Getting Started](#getting-started)  
-[Contributing Code](#contributing-code)  
-[Labels](#labels)  
-[Opening Issues](#opening-issues)  
+[Getting Started](#getting-started)\
+[Contributing Code](#contributing-code)\
+[Labels](#labels)\
+[Opening Issues](#opening-issues)\
 [Pull Requests](#pull-requests)
 
 ## Getting Started
@@ -87,12 +87,11 @@ commit scopes and types.
 
 ### Code Style
 
-[Prettier][5] is used to format code, and [ESLint][6] to lint files.
+[dprint][5] is used to format code, and [ESLint][6] to lint files.
 
-#### Prettier Configurations
+#### dprint Configurations
 
-- [`.prettierrc.cjs`](.prettierrc.cjs)
-- [`.prettierignore`](.prettierignore)
+- [`.dprint.json`](.dprint.json)
 
 #### ESLint Configurations
 
@@ -183,7 +182,7 @@ where `<branch>` is the name of the branch you'd like to merge into `next`.
 [2]: https://github.com/typicode/husky
 [3]: https://conventionalcommits.org
 [4]: https://github.com/conventional-changelog/commitlint
-[5]: https://prettier.io
+[5]: https://dprint.dev
 [6]: https://eslint.org
 [7]: https://jsdoc.app
 [8]: https://github.com/gajus/eslint-plugin-jsdoc

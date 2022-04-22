@@ -15,7 +15,7 @@ describe('unit:katas/fibonacciSequence', () => {
     { expected: [1, 1, 2, 3, 5, 8], parameters: [5] },
     {
       expected: [
-        1, // prettier is dumb
+        1,
         1,
         2,
         3,

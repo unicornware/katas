@@ -3,14 +3,14 @@
  * @see https://github.com/okonet/lint-staged
  */
 
-const { extensions } = require('./.vscode/settings.json')['eslint.options']
+const eslint = require('./.vscode/settings.json')['eslint.options']
 
 module.exports = {
   /**
    * Attempt to fix code style when JavaScript, Markdown, and TypeScript files
    * are changed.
    */
-  [`*.{${extensions.map(ext => ext.slice(1)).join(',')}}`]: [
+  [`*.{${eslint.extensions.map(ext => ext.slice(1)).join(',')}}`]: [
     'yarn fix:style',
     'git add -A'
   ],

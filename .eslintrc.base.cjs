@@ -1,7 +1,6 @@
 /**
  * @file ESLint Configuration - Base
  * @see https://eslint.org/docs/user-guide/configuring
- * @see https://github.com/prettier/eslint-config-prettier
  */
 
 const { Linter } = require('eslint')
@@ -18,7 +17,6 @@ const config = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
     './.eslintrc.spec.cjs',
     './.eslintrc.spellcheck.cjs'
   ],
@@ -482,7 +480,6 @@ const config = {
     '@typescript-eslint/unbound-method': [2, { ignoreStatic: true }],
     '@typescript-eslint/unified-signatures': 2,
     'array-bracket-newline': [2, 'consistent'],
-    /** @see https://github.com/prettier/prettier-vscode/issues/352 */
     'array-element-newline': [2, 'consistent'],
     'brace-style': 0,
     'comma-dangle': 0,
@@ -688,7 +685,6 @@ const config = {
     'object-curly-spacing': 0,
     'padding-line-between-statements': 0,
     'prefer-arrow-callback': 2,
-    'prettier/prettier': [2, require('./.prettierrc.cjs')],
     quotes: 0,
     'require-await': 0,
     'no-return-await': 0,
@@ -876,8 +872,7 @@ const config = {
       files: [
         '.commitlintrc.ts',
         '.eslintrc.*',
-        '.lintstagedrc.cjs',
-        '.prettierrc.cjs'
+        '.lintstagedrc.cjs'
       ],
       rules: {
         'jsdoc/require-file-overview': [
@@ -895,14 +890,9 @@ const config = {
       }
     },
     {
-      files: ['.eslintrc.*', '.prettierrc.cjs'],
-      rules: {
-        'sort-keys': 0
-      }
-    },
-    {
       files: ['.eslintrc.*'],
       rules: {
+        'sort-keys': 0,
         'spellcheck/spell-checker': 0,
         'unicorn/string-content': 0
       }

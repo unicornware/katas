@@ -42,7 +42,7 @@ describe('unit:katas/tribonacci', () => {
     },
     {
       expected: [
-        0.5, // prettier is dumb
+        0.5,
         0.5,
         0.5,
         1.5,

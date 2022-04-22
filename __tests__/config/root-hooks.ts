@@ -28,7 +28,6 @@ export const mochaHooks: RootHookObject = {
    * [1]: https://sinonjs.org/releases/v11.1.2/stubs
    * [2]: https://sinonjs.org/releases/v11.1.2/fakes
    *
-   *
    * @param {Mocha.Context} this - Current test context
    * @return {void} Nothing when complete
    */

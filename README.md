@@ -6,8 +6,8 @@
 
 ## Overview
 
-**[Getting Started](#getting-started)**  
-**[Usage](#usage)**
+[Getting Started](#getting-started)\
+[Usage](#usage)
 
 ## Getting Started
 
