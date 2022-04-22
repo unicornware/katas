@@ -16,7 +16,12 @@ const config = {
   overrides: [
     ...overrides,
     {
-      files: ['src/katas/__tests__/mumble.spec.ts', 'src/katas/mumble.ts'],
+      files: [
+        'src/katas/__tests__/is-isogram.spec.ts',
+        'src/katas/__tests__/mumble.spec.ts',
+        'src/katas/is-isogram.ts',
+        'src/katas/mumble.ts'
+      ],
       rules: {
         'spellcheck/spell-checker': 0
       }

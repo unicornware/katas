@@ -70,6 +70,7 @@ const SKIP_WORDS = [
   'haversine',
   'impl',
   'instanceof',
+  'isogram',
   'jsdoc',
   'jsonspec',
   'kata',
