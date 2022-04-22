@@ -15,9 +15,9 @@
  * @return {string} Weights sorted by sum of their digits
  */
 const orderWeight = (string: string): string => {
-  return [...(string.match(/\d+/g) ?? '')]
+  return [...string.match(/\d+/g) ?? '']
     .map(m => ({ m, w: [...m].reduce((acc, char) => acc + +char, 0) }))
-    .sort((a, b) => (a.w === b.w ? a.m.localeCompare(b.m) : a.w - b.w))
+    .sort((a, b) => a.w === b.w ? a.m.localeCompare(b.m) : a.w - b.w)
     .reduce((acc, curr) => acc + (acc ? ' ' : '') + curr.m, '')
 }
 

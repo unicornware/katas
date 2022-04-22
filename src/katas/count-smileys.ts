@@ -16,7 +16,7 @@
  * @return {number} Number of smiley faces in `arr`
  */
 const countSmileys = (arr: string[]): number => {
-  return [...(arr.join(' ').match(/((:|;)(-|~)?(\)|D))/g) ?? [])].length
+  return [...arr.join(' ').match(/((:|;)(-|~)?(\)|D))/g) ?? []].length
 }
 
 export default countSmileys

@@ -29,7 +29,7 @@ const solution = (number: number): number => {
     const three: boolean = i % 3 === 0
 
     // Add i to sum if i is multiple of three and/or five
-    if ((five && three) || five || three) sum += i
+    if (five && three || five || three) sum += i
   }
 
   return sum

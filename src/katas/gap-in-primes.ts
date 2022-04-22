@@ -60,7 +60,7 @@ class G964 {
    */
   static prime(n: number): boolean {
     // Prime numbers start at 2 and all are odd (except 2)
-    if (n <= 1 || (n !== 2 && n % 2 === 0)) return false
+    if (n <= 1 || n !== 2 && n % 2 === 0) return false
 
     // If n equals 2, n is a prime number
     if (n === 2) return true

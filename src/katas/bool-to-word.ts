@@ -14,6 +14,6 @@
  * @param {boolean} bool - Boolean to convert into word
  * @return {string} `'Yes'` if `bool` is `true`, `'No`' otherwise
  */
-const boolToWord = (bool: boolean): string => (bool ? 'Yes' : 'No')
+const boolToWord = (bool: boolean): string => bool ? 'Yes' : 'No'
 
 export default boolToWord

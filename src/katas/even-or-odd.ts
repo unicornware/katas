@@ -18,6 +18,6 @@
  * @param {number} n - Integer to check
  * @return {string} `'Even'` if `n` is an even number, `'Odd`' otherwise
  */
-const even_or_odd = (n: number): string => (n % 2 === 0 ? 'Even' : 'Odd')
+const even_or_odd = (n: number): string => n % 2 === 0 ? 'Even' : 'Odd'
 
 export default even_or_odd

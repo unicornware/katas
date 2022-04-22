@@ -251,7 +251,7 @@ const config = {
     '@typescript-eslint/no-empty-interface': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-extra-non-null-assertion': 2,
-    '@typescript-eslint/no-extra-parens': 0,
+    '@typescript-eslint/no-extra-parens': [2, 'all'],
     '@typescript-eslint/no-extra-semi': 2,
     '@typescript-eslint/no-extraneous-class': [
       2,

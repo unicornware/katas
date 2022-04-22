@@ -34,7 +34,7 @@ export type NewMemberData = [number, number]
  * @return {MemberCategory[]} New member categories
  */
 const openOrSenior = (data: NewMemberData[]): MemberCategory[] => {
-  return data.map(([a, h]) => (a >= 55 && h > 7 ? 'Senior' : 'Open'))
+  return data.map(([a, h]) => a >= 55 && h > 7 ? 'Senior' : 'Open')
 }
 
 export default openOrSenior

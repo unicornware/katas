@@ -18,6 +18,6 @@
  * @param {number} num - Integer to negate
  * @return {number} Negated integer
  */
-const makeNegative = (num: number): number => (num <= 0 ? num : num * -1)
+const makeNegative = (num: number): number => num <= 0 ? num : num * -1
 
 export default makeNegative

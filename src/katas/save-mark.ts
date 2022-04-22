@@ -40,7 +40,7 @@ const saveMark = (c1: string, c2: string): string => {
    * @param {number} num - Value (in degrees) to convert
    * @return {number} `num` in radians
    */
-  const radians = (num: number): number => (num * Math.PI) / 180
+  const radians = (num: number): number => num * Math.PI / 180
 
   /** @const {number} RADIUS - Radius of planet Mars (in kilometers) */
   const RADIUS: number = 3390
@@ -74,7 +74,7 @@ const saveMark = (c1: string, c2: string): string => {
   const d: number = RADIUS * c
 
   // Return distance with unit appended
-  return `${d - (d % 10)}KM`
+  return `${d - d % 10}KM`
 }
 
 export default saveMark
