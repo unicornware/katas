@@ -71,6 +71,7 @@ const SKIP_WORDS = [
   'impl',
   'instanceof',
   'isogram',
+  'javascript',
   'jsdoc',
   'jsonspec',
   'kata',
