@@ -13,10 +13,14 @@
  *
  * Given an index, `n`, the function returns the element at `u(n)`.
  *
- * @example dblLinear(0) // 1
- * @example dblLinear(10) // 22
- * @example dblLinear(100) // 447
- * @example dblLinear(7687) // 111718
+ * @example
+ *  dblLinear(0) // 1
+ * @example
+ *  dblLinear(10) // 22
+ * @example
+ *  dblLinear(100) // 447
+ * @example
+ *  dblLinear(7687) // 111718
  *
  * @param {number} n - Index of element to get
  * @return {number} Element at `u(n)`

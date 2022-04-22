@@ -13,8 +13,10 @@
  * - it contains at least one uppercase letter
  * - it contains at least one number
  *
- * @example validate('djI38D55') // true
- * @example validate('password') // false
+ * @example
+ *  validate('djI38D55') // true
+ * @example
+ *  validate('password') // false
  *
  * @param {string} password - Password to validate
  * @return {boolean} `true` if password is valid, `false` otherwise

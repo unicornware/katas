@@ -7,9 +7,12 @@
 /**
  * Generates an array representation of `range`.
  *
- * @example toArray('3_6,9') // [3, 4, 5, 6, 9]
- * @example toArray('2') // [2]
- * @example toArray('') // []
+ * @example
+ *  toArray('') // []
+ * @example
+ *  toArray('2') // [2]
+ * @example
+ *  toArray('3_6,9') // [3, 4, 5, 6, 9]
  *
  * @param {string} range - Range string
  * @return {number[]} Array representation of `range`
@@ -44,9 +47,12 @@ const toArray = (range: string): number[] => {
 /**
  * Generates a range string representation of `arr`.
  *
- * @example toRange([3, 4, 5, 6, 9]) // '3_6,9'
- * @example toRange([2]) // '2'
- * @example toRange([]) // ''
+ * @example
+ *  toRange([]) // ''
+ * @example
+ *  toRange([2]) // '2'
+ * @example
+ *  toRange([3, 4, 5, 6, 9]) // '3_6,9'
  *
  * @param {number[]} arr - Number array
  * @return {string} Range string representation of `arr`

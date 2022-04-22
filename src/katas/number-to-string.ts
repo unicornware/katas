@@ -7,8 +7,10 @@
 /**
  * Given a number, `num`, the function returns the number as a string.
  *
- * @example numberToString(123) // '123'
- * @example numberToString(999) // '999'
+ * @example
+ *  numberToString(123) // '123'
+ * @example
+ *  numberToString(999) // '999'
  *
  * @param {number} num - Number to stringify
  * @return {string} Stringified number

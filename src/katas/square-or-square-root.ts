@@ -8,7 +8,8 @@
  * Given an array of integers, `array`, the function returns an array with the
  * square or square root of each integer.
  *
- * @example squareOrSquareRoot([4, 3, 9, 7, 2, 1]) // [2, 9, 3, 49, 4, 1]
+ * @example
+ *  squareOrSquareRoot([4, 3, 9, 7, 2, 1]) // [2, 9, 3, 49, 4, 1]
  *
  * @param {number[]} array - Integer array
  * @return {number[]} Array containing squares or square roots

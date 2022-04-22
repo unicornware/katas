@@ -14,7 +14,8 @@ class G964 {
    * Returns the first pair of prime numbers spaced with a gap of `g` between
    * the limits `m` and `n`.
    *
-   * @example G964.gap(2, 3, 50) // [3, 5]
+   * @example
+   *  G964.gap(2, 3, 50) // [3, 5]
    *
    * @public
    * @static
@@ -49,8 +50,10 @@ class G964 {
   /**
    * Checks if `n` is a prime number.
    *
-   * @example G964.prime(2) // true
-   * @example G964.prime(10) // false
+   * @example
+   *  G964.prime(2) // true
+   * @example
+   *  G964.prime(10) // false
    *
    * @public
    * @static
@@ -76,8 +79,10 @@ class G964 {
   /**
    * Returns an array containing all prime numbers between `k` and `n`.
    *
-   * @example G964.primes(30) // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
-   * @example G964.primes(20, 4) // [5, 7, 11, 13, 17, 19]
+   * @example
+   *  G964.primes(30) // [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+   * @example
+   *  G964.primes(20, 4) // [5, 7, 11, 13, 17, 19]
    *
    * @public
    * @static

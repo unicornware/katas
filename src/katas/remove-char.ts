@@ -7,8 +7,10 @@
 /**
  * Removes the first and last characters of `str`.
  *
- * @example removeChar('eloquent') // 'loquen'
- * @example removeChar('person') // 'erso'
+ * @example
+ *  removeChar('person') // 'erso'
+ * @example
+ *  removeChar('eloquent') // 'loquen'
  *
  * @param {string} str - String to remove characters from
  * @return {string} `str` with first and last characters removed

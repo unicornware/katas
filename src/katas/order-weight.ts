@@ -9,7 +9,8 @@
  * function returns a string with the weights sorted in ascending order by the
  * sum of their digits.
  *
- * @example orderWeight('56 74 100 99 86 180 90') // '100 180 90 56 74 86 99'
+ * @example
+ *  orderWeight('56 74 100 99 86 180 90') // '100 180 90 56 74 86 99'
  *
  * @param {string} string - Weights of FFC members
  * @return {string} Weights sorted by sum of their digits

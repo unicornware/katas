@@ -22,11 +22,14 @@ class BinaryDivisibility extends RegExp {
   /**
    * Checks if `string`, a binary number, is divisible by `+this.source`.
    *
+   * @public
+   * @instance
+   *
    * @param {string} string - Binary number to test
    * @return {boolean} `true` if `string` is divisible, `false` otherwise
    */
   test(string: string): boolean {
-    return +Number.parseInt(string, 2) % +this.source === 0
+    return Number.parseInt(string, 2) % +this.source === 0
   }
 }
 

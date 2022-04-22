@@ -8,6 +8,7 @@ class G964 {
   /**
    * Fibonacci sequence iterator.
    *
+   * @public
    * @static
    *
    * @class
@@ -16,18 +17,21 @@ class G964 {
   static FibonacciSequence = class implements Iterator<number, number> {
     /**
      * @public
+     * @instance
      * @member {number} fib1 - First current sequence value
      */
     fib1: number = 1
 
     /**
      * @public
+     * @instance
      * @member {number} fib2 - Second current sequence value
      */
     fib2: number = 1
 
     /**
      * @protected
+     * @instance
      * @member {number} max - Sequence value limit (inclusive)
      */
     protected max: number
@@ -44,6 +48,9 @@ class G964 {
     /**
      * Iterable protocol.
      *
+     * @public
+     * @instance
+     *
      * @return {IterableIterator<number>} Current sequence iterator
      */
     [Symbol.iterator](): IterableIterator<number> {
@@ -52,6 +59,9 @@ class G964 {
 
     /**
      * Returns the next value in the fibonacci sequence.
+     *
+     * @public
+     * @instance
      *
      * @return {IteratorResult<number, number>} Next value in sequence
      */
@@ -74,9 +84,12 @@ class G964 {
    * If the two sequence values satisfying the constraints are found, the last
    * value in the returned array will be `true`. Otherwise, it'll be `false`.
    *
-   * @example G964.productFib(714) // [21, 34, true]
-   * @example G964.productFib(800) // [34, 55, false]
+   * @example
+   *  G964.productFib(714) // [21, 34, true]
+   * @example
+   *  G964.productFib(800) // [34, 55, false]
    *
+   * @public
    * @static
    *
    * @param {number} prod - Target product

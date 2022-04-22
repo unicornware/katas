@@ -64,12 +64,18 @@ const tt_expression: ExprRegexFn = (op?: Op, flags?: string): RegExp => {
  *
  * If the expression is invalid, an error message will be returned instead.
  *
- * @example calculate('1+1') // 2
- * @example calculate('10$2') // 5
- * @example calculate('1.5*3') // 4.5
- * @example calculate('1000$2.5$5+5-5+6$6') // 81
- * @example calculate('3.156696237618729e-8') // 3.156696237618729e-8
- * @example calculate('10-9p') // '400: Bad request'
+ * @example
+ *  calculate('1+1') // 2
+ * @example
+ *  calculate('10$2') // 5
+ * @example
+ *  calculate('1.5*3') // 4.5
+ * @example
+ *  calculate('1000$2.5$5+5-5+6$6') // 81
+ * @example
+ *  calculate('3.156696237618729e-8') // 3.156696237618729e-8
+ * @example
+ *  calculate('10-9p') // '400: Bad request'
  *
  * @param {string} expression - Mathematical expression
  * @param {Operations} [order=ORDER_OF_OPERATIONS] - Order of operations

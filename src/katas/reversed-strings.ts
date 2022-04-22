@@ -7,8 +7,10 @@
 /**
  * Given a string, `str`, the function returns the string in reverse.
  *
- * @example solution('hello') // 'olleh'
- * @example solution('world') // 'dlrow'
+ * @example
+ *  solution('hello') // 'olleh'
+ * @example
+ *  solution('world') // 'dlrow'
  *
  * @param {string} str - String to reverse
  * @return {string} Reversed string

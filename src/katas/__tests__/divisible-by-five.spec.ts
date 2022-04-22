@@ -4,11 +4,11 @@
  */
 
 import type { TestcaseFn } from '@tests/interfaces'
-import testSubject from '../divisible-by-five'
+import TestSubject from '../divisible-by-five'
 
 describe('unit:katas/divisibleByFive', () => {
   describe('#test', () => {
-    interface Case extends TestcaseFn<typeof testSubject['test']> {}
+    interface Case extends TestcaseFn<typeof TestSubject['test']> {}
 
     const cases: Case[] = [
       { expected: false, parameters: [''] },
@@ -31,7 +31,7 @@ describe('unit:katas/divisibleByFive', () => {
       const state = Number.isNaN(d) ? 'empty string' : `${d} as binary number`
 
       it(`should return ${expected} given ${state}`, () => {
-        expect(testSubject.test(string)).to.equal(expected)
+        expect(TestSubject.test(string)).to.equal(expected)
       })
     })
   })

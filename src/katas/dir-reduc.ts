@@ -13,8 +13,10 @@
  * a needless effort. Given a set of directions, the functions returns an array
  * with all extraneous directions removed.
  *
- * @example dirReduc(['NORTH', 'SOUTH', 'WEST']) // ['WEST']
- * @example dirReduc(['NORTH', 'SOUTH', 'EAST', 'WEST']) // []
+ * @example
+ *  dirReduc(['NORTH', 'SOUTH', 'WEST']) // ['WEST']
+ * @example
+ *  dirReduc(['NORTH', 'SOUTH', 'EAST', 'WEST']) // []
  *
  * @param {string[]} arr - Directions
  * @return {string[]} `arr` with extraneous directions removed

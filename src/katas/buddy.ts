@@ -17,10 +17,14 @@
  * Given two positive integers, `start` and `limit`, the function returns the
  * first pair of `buddy pairs` such that `start <= n <= limit` and `m > n`.
  *
- * @example buddy(2382, 3679) // []
- * @example buddy(10, 50) // [48, 75]
- * @example buddy(48, 50) // [48, 75]
- * @example buddy(1071625, 1103735) // [1081184, 1331967]
+ * @example
+ *  buddy(2382, 3679) // []
+ * @example
+ *  buddy(10, 50) // [48, 75]
+ * @example
+ *  buddy(48, 50) // [48, 75]
+ * @example
+ *  buddy(1071625, 1103735) // [1081184, 1331967]
  *
  * @param {number} start - Lower bound (inclusive)
  * @param {number} limit - Upper bound (inclusive)

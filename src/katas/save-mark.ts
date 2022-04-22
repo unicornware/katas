@@ -8,7 +8,8 @@
 /**
  * Returns the approximate distance between two pairs of coordinates.
  *
- * @example saveMark('48.23° N, 89.10° E', '48.84° N, 89.40° E') // '30KM'
+ * @example
+ *  saveMark('48.23° N, 89.10° E', '48.84° N, 89.40° E') // '30KM'
  *
  * @param {string} c1 - First pair of coordinates
  * @param {string} c2 - Second pair of coordinates

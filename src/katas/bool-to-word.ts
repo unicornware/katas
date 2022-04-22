@@ -8,8 +8,10 @@
  * Given a boolean, `bool`, the function returns `'Yes'` if `bool` is `true`, or
  * `'No'` if `bool` is `false`.
  *
- * @example boolToWord(false) // 'No'
- * @example boolToWord(true) // 'Yes'
+ * @example
+ *  boolToWord(false) // 'No'
+ * @example
+ *  boolToWord(true) // 'Yes'
  *
  * @param {boolean} bool - Boolean to convert into word
  * @return {string} `'Yes'` if `bool` is `true`, `'No`' otherwise

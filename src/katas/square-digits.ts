@@ -7,9 +7,12 @@
 /**
  * Squares every digit in `num`.
  *
- * @example squareDigits(9119) // 811181
- * @example squareDigits(1234) // 14916
- * @example squareDigits(0) // 0
+ * @example
+ *  squareDigits(0) // 0
+ * @example
+ *  squareDigits(1234) // 14916
+ * @example
+ *  squareDigits(9119) // 811181
  *
  * @param {number} num - Number to square each digit of
  * @return {number} The square of each digit in `num` concatenated
@@ -29,7 +32,7 @@ const squareDigits = (num: number): number => {
 
   // If sq is empty => num === 0, return num
   // If sq is not empty => reverse + concat, then convert result into number
-  return sq.length === 0 ? num : Number.parseInt(sq.reverse().join(''))
+  return sq.length === 0 ? num : +sq.reverse().join('')
 }
 
 export default squareDigits

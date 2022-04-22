@@ -12,24 +12,28 @@
 class FibonacciSequence implements Iterator<number, number | undefined> {
   /**
    * @protected
+   * @instance
    * @member {number} fib1 - First current sequence value
    */
   protected fib1: number = 1
 
   /**
    * @protected
+   * @instance
    * @member {number} fib2 - Second current sequence value
    */
   protected fib2: number = 1
 
   /**
    * @protected
+   * @instance
    * @member {number} index - Sequence index
    */
   protected index: number = -1
 
   /**
    * @protected
+   * @instance
    * @member {number} max - Sequence index limit
    */
   protected max: number
@@ -46,6 +50,9 @@ class FibonacciSequence implements Iterator<number, number | undefined> {
   /**
    * Iterable protocol.
    *
+   * @public
+   * @instance
+   *
    * @return {IterableIterator<number>} Current sequence iterator
    */
   [Symbol.iterator](): IterableIterator<number> {
@@ -54,6 +61,9 @@ class FibonacciSequence implements Iterator<number, number | undefined> {
 
   /**
    * Returns the next value in the fibonacci sequence.
+   *
+   * @public
+   * @instance
    *
    * @return {IteratorResult<number, number>} Next value in sequence
    */

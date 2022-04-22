@@ -8,8 +8,10 @@
  * Given a string, `words`, where each word contains a number (`1` - `9`), the
  * function returns a string with the words sorted in ascending order.
  *
- * @example order('is2 Thi1s T4est 3a') // 'Thi1s is2 3a T4est'
- * @example order('') // ''
+ * @example
+ *  order('') // ''
+ * @example
+ *  order('is2 Thi1s T4est 3a') // 'Thi1s is2 3a T4est'
  *
  * @param {string} words - Words to sort
  * @return {string} String containing sorted words

@@ -6,9 +6,7 @@
 
 import type { OneOrMany } from '@flex-development/tutils'
 
-/**
- * First argument passed to {@link SumSquares}.
- */
+/** First argument passed to {@link SumSquares}. */
 type List = OneOrMany<
   OneOrMany<
     | number[]
@@ -32,13 +30,20 @@ type List = OneOrMany<
  * Given a multi-dimensional list of integers, `l`, the function squares all
  * values in `list` and returns the sum.
  *
- * @example SumSquares([]) // 0
- * @example SumSquares([[]]) // 0
- * @example SumSquares([1, 2, 3]) // 14
- * @example SumSquares([[1, 2], 3]) // 14
- * @example SumSquares([[[[[[[[[1]]]]]]]]]) // 1
- * @example SumSquares([10, [[10], 10], [10]]) // 400
- * @example SumSquares([1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]) // 325
+ * @example
+ *  SumSquares([]) // 0
+ * @example
+ *  SumSquares([[]]) // 0
+ * @example
+ *  SumSquares([1, 2, 3]) // 14
+ * @example
+ *  SumSquares([[1, 2], 3]) // 14
+ * @example
+ *  SumSquares([[[[[[[[[1]]]]]]]]]) // 1
+ * @example
+ *  SumSquares([10, [[10], 10], [10]]) // 400
+ * @example
+ *  SumSquares([1, [[3], 10, 5, [2, [3], [4], [5, [6]]]], [10]]) // 325
  *
  * @param {List} l - Multi-dimensional integer list
  * @return {number} Sum of squares in `list`

@@ -17,11 +17,16 @@
  *
  * Given a string, `s`, the function corrects errors in the digitised text.
  *
- * @example correct('L0ND0N') // 'LONDON'
- * @example correct('DUBL1N') // 'DUBLIN'
- * @example correct('51NGAP0RE') // 'SINGAPORE'
- * @example correct('BUDAPE5T') // 'BUDAPEST'
- * @example correct('PAR15') // 'PARIS'
+ * @example
+ *  correct('PAR15') // 'PARIS'
+ * @example
+ *  correct('DUBL1N') // 'DUBLIN'
+ * @example
+ *  correct('L0ND0N') // 'LONDON'
+ * @example
+ *  correct('BUDAPE5T') // 'BUDAPEST'
+ * @example
+ *  correct('51NGAP0RE') // 'SINGAPORE'
  *
  * @param {string} s - Digitised text
  * @return {string} Corrected text

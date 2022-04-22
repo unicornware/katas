@@ -8,8 +8,10 @@
  * Given a string, `s`, the function returns a string containing `str` repeated
  * `n` times.
  *
- * @example repeatStr(6, 'I') // 'IIIIII'
- * @example repeatStr(5, 'Hello') // 'HelloHelloHelloHelloHello'
+ * @example
+ *  repeatStr(6, 'I') // 'IIIIII'
+ * @example
+ *  repeatStr(5, 'Hello') // 'HelloHelloHelloHelloHello'
  *
  * @param {number} n - Number of times to repeat `s`
  * @param {string} s - String to repeat

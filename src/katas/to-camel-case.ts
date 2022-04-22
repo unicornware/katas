@@ -7,8 +7,10 @@
 /**
  * Converts a dash or underscore delimited word, `str`, into camel case.
  *
- * @example toCamelCase('the-stealth-warrior') // 'theStealthWarrior'
- * @example toCamelCase('The_Stealth_Warrior') // 'TheStealthWarrior'
+ * @example
+ *  toCamelCase('the-stealth-warrior') // 'theStealthWarrior'
+ * @example
+ *  toCamelCase('The_Stealth_Warrior') // 'TheStealthWarrior'
  *
  * @param {string} str - Word to convert
  * @return {string} `str` in camel case

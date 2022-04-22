@@ -10,8 +10,10 @@
  *
  * **Note**: This function does **not** consider `y` a vowel.
  *
- * @example getCount('abracadabra') // 5
- * @example getCount('the quick brown fox jumps over the lazy dog') // 11
+ * @example
+ *  getCount('abracadabra') // 5
+ * @example
+ *  getCount('the quick brown fox jumps over the lazy dog') // 11
  *
  * @param {string} str - String to check
  * @return {number} Total numbers of vowels in `str`

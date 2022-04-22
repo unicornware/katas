@@ -4,19 +4,21 @@
  */
 
 import type { TestcaseFn } from '@tests/interfaces'
-import testSubject from '../multiples-of-three-or-five'
+import TestSubject from '../multiples-of-three-or-five'
 
 describe('unit:katas/multiplesOfThreeOrFive', () => {
-  interface Case extends TestcaseFn<typeof testSubject> {}
+  describe('.solution', () => {
+    interface Case extends TestcaseFn<typeof TestSubject['solution']> {}
 
-  const cases: Case[] = [
-    { expected: 0, parameters: [-1] },
-    { expected: 23, parameters: [10] }
-  ]
+    const cases: Case[] = [
+      { expected: 0, parameters: [-1] },
+      { expected: 23, parameters: [10] }
+    ]
 
-  cases.forEach(({ expected, parameters }) => {
-    it(`should return ${expected} given ${pf(parameters)}`, () => {
-      expect(testSubject(...parameters)).to.equal(expected)
+    cases.forEach(({ expected, parameters }) => {
+      it(`should return ${expected} given ${pf(parameters)}`, () => {
+        expect(TestSubject.solution(...parameters)).to.equal(expected)
+      })
     })
   })
 })

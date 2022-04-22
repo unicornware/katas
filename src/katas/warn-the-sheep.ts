@@ -18,8 +18,10 @@
  * `N`! You are about to be eaten by a wolf!"** where `N` is the sheep's
  * position in the queue.
  *
- * @example warnTheSheep(['sheep', 'wolf', 'sheep']) // sheep warning
- * @example warnTheSheep(['sheep', 'sheep', 'wolf']) // wolf warning
+ * @example
+ *  warnTheSheep(['sheep', 'sheep', 'wolf']) // wolf warning
+ * @example
+ *  warnTheSheep(['sheep', 'wolf', 'sheep']) // sheep warning
  *
  * @param {string[]} queue - Sheep / wolf queue
  * @return {string} Warning message

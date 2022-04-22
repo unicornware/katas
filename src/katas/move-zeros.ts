@@ -7,7 +7,8 @@
 /**
  * Given an array, `arr`, the function moves all zeros to the end of the array.
  *
- * @example moveZeros([false, 0, 3, 'a']) // [false, 3, 0, 0]
+ * @example
+ *  moveZeros([false, 0, 3, 'a']) // [false, 3, 0, 0]
  *
  * @param {unknown[]} arr - Array
  * @return {unknown[]} `arr` with zeros shifted to the end of the array

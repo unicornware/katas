@@ -7,10 +7,14 @@
 /**
  * Given an integer, `n`, the function returns the integer negated.
  *
- * @example opposite(0) // 0
- * @example opposite(1) // -1
- * @example opposite(14) // -14
- * @example opposite(-34) // 34
+ * @example
+ *  opposite(0) // 0
+ * @example
+ *  opposite(1) // -1
+ * @example
+ *  opposite(14) // -14
+ * @example
+ *  opposite(-34) // 34
  *
  * @param {number} n - Number to negate
  * @return {number} Negated counterpart

@@ -8,8 +8,10 @@
  * Given an array of numbers, `arr`, the functions squares each number in `arr`
  * and returns the sum.
  *
- * @example squareSum([1, 2, 2]) // 9
- * @example squareSum([]) // 0
+ * @example
+ *  squareSum([]) // 0
+ * @example
+ *  squareSum([1, 2, 2]) // 9
  *
  * @param {number[]} arr - Integer array
  * @return {number} Sum of squares in `arr`

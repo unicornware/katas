@@ -8,9 +8,12 @@
  * Given two integers, `a` and `b`, the function returns the sum of all the
  * integers between and including `a` and `b`.
  *
- * @example getSum(1, 0) // 1
- * @example getSum(2, -1) // 2
- * @example getSum(3, 3) // 3
+ * @example
+ *  getSum(1, 0) // 1
+ * @example
+ *  getSum(3, 3) // 3
+ * @example
+ *  getSum(2, -1) // 2
  *
  * @param {number} a - First bound (inclusive)
  * @param {number} b - Second bound (inclusive)

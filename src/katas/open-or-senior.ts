@@ -11,12 +11,12 @@
  * greater than `7`. Handicaps range from `-2` to `+26`; the better the player
  * the lower the handicap.
  */
-export type MemberCategory = 'Open' | 'Senior'
+type MemberCategory = 'Open' | 'Senior'
 
 /**
  * Western Suburbs Croquet Club new member data.
  */
-export type NewMemberData = [number, number]
+type NewMemberData = [number, number]
 
 /**
  * The Western Suburbs Croquet Club has two categories of membership.
@@ -27,8 +27,10 @@ export type NewMemberData = [number, number]
  * @see {@link MemberCategory}
  * @see {@link NewMemberData}
  *
- * @example openOrSenior([[45, 2], [61, 12]]) // ['Open', 'Senior']
- * @example openOrSenior([]) // []
+ * @example
+ *  openOrSenior([]) // []
+ * @example
+ *  openOrSenior([[45, 2], [61, 12]]) // ['Open', 'Senior']
  *
  * @param {NewMemberData[]} data - New member data
  * @return {MemberCategory[]} New member categories

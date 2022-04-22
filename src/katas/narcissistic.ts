@@ -15,8 +15,10 @@
  *
  * [1]: https://en.wikipedia.org/wiki/Narcissistic_number
  *
- * @example narcissistic(153) // true
- * @example narcissistic(1652) // false
+ * @example
+ *  narcissistic(153) // true
+ * @example
+ *  narcissistic(1652) // false
  *
  * @param {number} value - Number to check
  * @return {boolean} `true` if `value` is narcissistic, `false` otherwise

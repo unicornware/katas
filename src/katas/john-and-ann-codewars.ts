@@ -15,8 +15,10 @@ class G964 {
    * Generates an array containing the number of katas completed by Ann in the
    * first `n` days.
    *
-   * @example G964.ann(5) // [1, 1, 2, 2, 3]
+   * @example
+   *  G964.ann(5) // [1, 1, 2, 2, 3]
    *
+   * @public
    * @static
    *
    * @param {number} n - Number of days
@@ -30,7 +32,8 @@ class G964 {
    * Returns an object with arrays containing the number of katas completed by
    * Ann and John in the first `n` days.
    *
-   * @example G964.days(3) // { ann: [1, 1, 2], john: [0, 0, 1] }
+   * @example
+   *  G964.days(3) // { ann: [1, 1, 2], john: [0, 0, 1] }
    *
    * @private
    * @static
@@ -58,8 +61,10 @@ class G964 {
    * Generates an array containing the number of katas completed by John in the
    * first `n` days.
    *
-   * @example G964.john(11) // [0, 0, 1, 2, 2, 3, 4, 4, 5, 6, 6]
+   * @example
+   *  G964.john(11) // [0, 0, 1, 2, 2, 3, 4, 4, 5, 6, 6]
    *
+   * @public
    * @static
    *
    * @param {number} n - Number of days
@@ -72,8 +77,10 @@ class G964 {
   /**
    * Returns the total number of katas completed by Ann by day `n`.
    *
-   * @example G964.sumAnn(5) // 9
+   * @example
+   *  G964.sumAnn(5) // 9
    *
+   * @public
    * @static
    *
    * @param {number} n - Number of days
@@ -86,8 +93,10 @@ class G964 {
   /**
    * Returns the total number of katas completed by John by day `n`.
    *
-   * @example G964.sumJohn(11) // 33
+   * @example
+   *  G964.sumJohn(11) // 33
    *
+   * @public
    * @static
    *
    * @param {number} n - Number of days

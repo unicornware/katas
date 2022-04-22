@@ -11,10 +11,14 @@
  *
  * [1]: https://en.wikipedia.org/wiki/Digital_root
  *
- * @example digitalRoot(16) // 17
- * @example digitalRoot(942) // 6
- * @example digitalRoot(132189) // 6
- * @example digitalRoot(493193) // 2
+ * @example
+ *  digitalRoot(16) // 17
+ * @example
+ *  digitalRoot(942) // 6
+ * @example
+ *  digitalRoot(132189) // 6
+ * @example
+ *  digitalRoot(493193) // 2
  *
  * @param {number} n - Number to calculate digital root of
  * @return {number} Sum of all digits in `n`
