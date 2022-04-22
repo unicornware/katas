@@ -4,6 +4,7 @@
  */
 
 const { Linter } = require('eslint')
+const { overrides } = require('./.eslintrc.base.cjs')
 
 /**
  * @type {Linter.Config}
@@ -11,7 +12,16 @@ const { Linter } = require('eslint')
  */
 const config = {
   root: true,
-  extends: ['./.eslintrc.base.cjs']
+  extends: ['./.eslintrc.base.cjs'],
+  overrides: [
+    ...overrides,
+    {
+      files: ['src/katas/__tests__/mumble.spec.ts', 'src/katas/mumble.ts'],
+      rules: {
+        'spellcheck/spell-checker': 0
+      }
+    }
+  ]
 }
 
 module.exports = config
