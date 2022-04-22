@@ -27,6 +27,14 @@ const config = {
       rules: {
         'spellcheck/spell-checker': 0
       }
+    },
+    {
+      files: [
+        'src/katas/to-jaden-case.ts'
+      ],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 0
+      }
     }
   ]
 }

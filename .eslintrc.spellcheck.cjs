@@ -175,6 +175,7 @@ const config = {
               'ello',
               'erso',
               'ig',
+              'jaden',
               'loquen',
               'lsrs',
               'ndrd',
