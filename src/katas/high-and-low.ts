@@ -17,10 +17,8 @@ class Kata {
    *
    * @example
    *  Kata.highAndLow('1 2 3 4 5') // '5 1'
-   *
    * @example
    *  Kata.highAndLow('1 2 -3 4 5') // '5 -3'
-   *
    * @example
    *  Kata.highAndLow('1 9 3 4 -5') // '9 -5'
    *
