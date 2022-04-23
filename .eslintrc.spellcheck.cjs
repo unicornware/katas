@@ -186,6 +186,7 @@ const config = {
               'feeney',
               'loquen',
               'lsrs',
+              'kat',
               'ndrd',
               'olleh',
               'oolcay',
