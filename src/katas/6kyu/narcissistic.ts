@@ -36,10 +36,10 @@ const narcissistic = (value: number): boolean => {
   // Iterate through digits starting from rightmost digit
   while (n > 0) {
     // Add rightmost digit raised to number of digits in value
-    sum += Math.floor(n % 10) ** (Math.log(value) * Math.LOG10E + 1 | 0)
+    sum += (n % 10 | 0) ** (Math.log(value) * Math.LOG10E + 1 | 0)
 
     // Move onto next digit
-    n = Math.floor(n / 10)
+    n = n / 10 | 0
   }
 
   // Check if value and sum are equal

@@ -28,7 +28,7 @@ class Challenge {
    */
   static getMiddle(s: string): string {
     /** @const {number} m - Index of midpoint in {@link s} */
-    const m: number = Math.floor(s.length / 2)
+    const m: number = s.length / 2 | 0
 
     // If length of s is odd, access middle character by index
     // If length of s is even, use slice to get middle characters

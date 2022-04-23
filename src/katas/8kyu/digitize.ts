@@ -24,7 +24,7 @@ const digitize = (n: number): number[] => {
   const digits: number[] = []
 
   // Iterate through digits starting from rightmost digit
-  while (n > 0) digits.push(Math.floor(n % 10)) && (n = Math.floor(n / 10))
+  while (n > 0) digits.push(n % 10 | 0) && (n = n / 10 | 0)
 
   return digits
 }

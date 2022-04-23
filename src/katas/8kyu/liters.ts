@@ -21,6 +21,6 @@
  * @param {number} time - Hours spent cycling
  * @return {number} Liters of water Nathan will drink
  */
-const liters = (time: number): number => Math.floor(time / 2)
+const liters = (time: number): number => time / 2 | 0
 
 export default liters

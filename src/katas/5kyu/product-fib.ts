@@ -97,7 +97,7 @@ class G964 {
    */
   static productFib(prod: number): [number, number, boolean] {
     /** @const {G964.FibonacciSequence} s - Fibonacci sequence */
-    const s = new this.FibonacciSequence(Math.floor(Math.sqrt(prod)) * 2)
+    const s = new this.FibonacciSequence((Math.sqrt(prod) | 0) * 2)
 
     /** @var {IteratorResult<number, number>} curr - Current {@link s} value */
     let curr: IteratorResult<number, number> = s.next()

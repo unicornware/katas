@@ -27,13 +27,7 @@ const descendingOrder = (n: number): number => {
   const digits: number[] = []
 
   // Iterate through digits starting from rightmost digit
-  while (n > 0) {
-    // Get rightmost digit
-    digits.push(Math.floor(n % 10))
-
-    // Move onto next digit
-    n = Math.floor(n / 10)
-  }
+  while (n > 0) digits.push(n % 10 | 0) && (n = n / 10 | 0)
 
   // Sort digits in descending order before joining and converting into number
   return +digits.sort((a, b) => b - a).join('')

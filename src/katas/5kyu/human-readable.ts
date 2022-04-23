@@ -25,7 +25,7 @@ const humanReadable = (seconds: number): string => {
   // Convert seconds into human-readable time
   for (const converter of [3600, 60, 1]) {
     /** @const {number} time - {@link seconds} in hours, minutes, or seconds */
-    const time: number = Math.floor(seconds / converter)
+    const time: number = seconds / converter | 0
 
     // Add conversion to time string
     formatted += time < 10 ? `0${time}` : time

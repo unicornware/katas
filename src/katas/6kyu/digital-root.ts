@@ -33,10 +33,10 @@ const digitalRoot = (n: number): number => {
   // Iterate through digits starting from rightmost digit
   while (n > 0) {
     // Add rightmost digit
-    sum += Math.floor(n % 10)
+    sum += n % 10 | 0
 
     // Move onto next digit
-    n = Math.floor(n / 10)
+    n = n / 10 | 0
   }
 
   // Return digital root of sum

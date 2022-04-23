@@ -26,13 +26,7 @@ class Kata {
     const sq: number[] = []
 
     // Iterate through digits starting from rightmost digit
-    while (num > 0) {
-      // Get square of rightmost digit
-      sq.push(Math.floor(num % 10) ** 2)
-
-      // Move onto next digit
-      num = Math.floor(num / 10)
-    }
+    while (num > 0) sq.push((num % 10 | 0) ** 2) && (num = num / 10 | 0)
 
     // If sq is empty => num === 0, return num
     // If sq is not empty => reverse + concat, then convert result into number
