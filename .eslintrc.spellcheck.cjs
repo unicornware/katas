@@ -44,6 +44,7 @@ const SKIP_WORDS = [
   'argv',
   'atoi',
   'bool',
+  'booleanish',
   'builtins',
   'chai',
   'ci',
