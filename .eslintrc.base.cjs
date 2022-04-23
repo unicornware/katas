@@ -831,7 +831,7 @@ const config = {
       }
     },
     {
-      files: ['src/katas/*.ts'],
+      files: ['src/katas/*/*.ts'],
       rules: {
         'jsdoc/require-file-overview': [
           1,
@@ -927,6 +927,12 @@ const config = {
     {
       files: ['**/*.md/*.ts'],
       parser: require.resolve('@typescript-eslint/parser')
+    },
+    {
+      files: ['**/*.d.ts'],
+      rules: {
+        'jsdoc/require-file-overview': 0
+      }
     },
     {
       files: ['**/*.ts'],
