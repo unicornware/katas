@@ -96,6 +96,7 @@ const SKIP_WORDS = [
   'os',
   'perf',
   'pls',
+  'pluto',
   'pnv',
   'postinstall',
   'prepack',
