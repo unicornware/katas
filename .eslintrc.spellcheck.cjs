@@ -53,6 +53,8 @@ const SKIP_WORDS = [
   'curr',
   'dedupe',
   'dgram',
+  'deoxyribonucleic',
+  'dna',
   'dns',
   'dotenv',
   'dto',
