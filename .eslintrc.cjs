@@ -18,9 +18,11 @@ const config = {
     {
       files: [
         'src/katas/__tests__/is-isogram.spec.ts',
+        'src/katas/__tests__/longest.spec.ts',
         'src/katas/__tests__/mumble.spec.ts',
         'src/katas/__tests__/xo.spec.ts',
         'src/katas/is-isogram.ts',
+        'src/katas/longest.spec.ts',
         'src/katas/mumble.ts',
         'src/katas/xo.ts'
       ],
