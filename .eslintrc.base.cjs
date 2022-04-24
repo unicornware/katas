@@ -827,7 +827,8 @@ const config = {
         'unicorn/no-array-reduce': 0,
         'unicorn/no-static-only-class': 0,
         'unicorn/no-unreadable-array-destructuring': 0,
-        'unicorn/no-unsafe-regex': 0
+        'unicorn/no-unsafe-regex': 0,
+        'unicorn/string-content': 0
       }
     },
     {
