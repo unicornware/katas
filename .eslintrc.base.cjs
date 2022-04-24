@@ -821,7 +821,7 @@ const config = {
   overrides: [
     ...require('./.eslintrc.spec.cjs').overrides,
     {
-      files: ['src/katas/**'],
+      files: ['src/**'],
       rules: {
         'unicorn/consistent-function-scoping': 0,
         'unicorn/no-array-reduce': 0,
@@ -831,7 +831,7 @@ const config = {
       }
     },
     {
-      files: ['src/katas/*/*.ts'],
+      files: ['src/*/*.ts'],
       rules: {
         'jsdoc/require-file-overview': [
           1,

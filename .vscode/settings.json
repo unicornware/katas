@@ -68,7 +68,16 @@
       "icon": "data"
     },
     {
-      "extensions": ["katas"],
+      "extensions": [
+        "1kyu",
+        "2kyu",
+        "3kyu",
+        "4kyu",
+        "5kyu",
+        "6kyu",
+        "7kyu",
+        "8kyu"
+      ],
       "format": "svg",
       "icon": "library"
     }

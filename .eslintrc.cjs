@@ -17,14 +17,14 @@ const config = {
     ...overrides,
     {
       files: [
-        'src/katas/7kyu/__tests__/is-isogram.spec.ts',
-        'src/katas/7kyu/__tests__/longest.spec.ts',
-        'src/katas/7kyu/__tests__/mumble.spec.ts',
-        'src/katas/7kyu/__tests__/xo.spec.ts',
-        'src/katas/7kyu/is-isogram.ts',
-        'src/katas/7kyu/longest.ts',
-        'src/katas/7kyu/mumble.ts',
-        'src/katas/7kyu/xo.ts'
+        'src/7kyu/__tests__/is-isogram.spec.ts',
+        'src/7kyu/__tests__/longest.spec.ts',
+        'src/7kyu/__tests__/mumble.spec.ts',
+        'src/7kyu/__tests__/xo.spec.ts',
+        'src/7kyu/is-isogram.ts',
+        'src/7kyu/longest.ts',
+        'src/7kyu/mumble.ts',
+        'src/7kyu/xo.ts'
       ],
       rules: {
         'spellcheck/spell-checker': 0
@@ -32,7 +32,7 @@ const config = {
     },
     {
       files: [
-        'src/katas/7kyu/to-jaden-case.ts'
+        'src/7kyu/to-jaden-case.ts'
       ],
       rules: {
         '@typescript-eslint/triple-slash-reference': 0
