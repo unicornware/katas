@@ -16,6 +16,9 @@ class Kata {
    * @example
    *  Kata.disemvowel('This website is for losers!') // 'Ths wbst s fr lsrs!'
    *
+   * @public
+   * @static
+   *
    * @param {string} str - String to remove vowels from
    * @return {string} `str` without vowels
    */

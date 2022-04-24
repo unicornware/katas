@@ -18,6 +18,9 @@ class Kata {
    * @example
    *  Kata.squareDigits(9119) // 811181
    *
+   * @public
+   * @static
+   *
    * @param {number} num - Number to square each digit of
    * @return {number} The square of each digit in `num` concatenated
    */
