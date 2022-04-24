@@ -1,12 +1,12 @@
 /**
- * @file Unit Tests - countSheep
- * @module katas/8kyu/tests/unit/countSheep
+ * @file Unit Tests - countSheeps
+ * @module katas/8kyu/tests/unit/countSheeps
  */
 
 import type { TestcaseFn } from '@tests/interfaces'
-import testSubject from '../count-sheep'
+import testSubject from '../count-sheeps'
 
-describe('unit:katas/8kyu/countSheep', () => {
+describe('unit:katas/8kyu/countSheeps', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
