@@ -185,6 +185,7 @@ const config = {
               'dlrow',
               'ello',
               'erso',
+              'fatcats',
               'favuzzi',
               'feenan',
               'feeney',
