@@ -198,6 +198,8 @@ const config = {
               'ountr',
               'patrick',
               'reduc',
+              'ringo',
+              'rolf',
               'scks',
               'siay',
               'tay',
