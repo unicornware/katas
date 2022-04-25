@@ -20,7 +20,7 @@
  * @param {number} n - Dividend
  * @param {number} x - First divisor
  * @param {number} y - Second divisor
- * @return {boolean} `true` if `n` is divisible by *both `x` and `y`
+ * @return {boolean} `true` if `n` is divisible by **both `x` and `y`**
  */
 const isDivisible = (n: number, x: number, y: number): boolean => {
   return n % x === 0 && n % y === 0
