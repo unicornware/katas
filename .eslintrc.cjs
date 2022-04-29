@@ -24,7 +24,8 @@ const config = {
         'src/7kyu/is-isogram.ts',
         'src/7kyu/longest.ts',
         'src/7kyu/mumble.ts',
-        'src/7kyu/xo.ts'
+        'src/7kyu/xo.ts',
+        'src/8kyu/__tests__/double-char.spec.ts'
       ],
       rules: {
         'spellcheck/spell-checker': 0
