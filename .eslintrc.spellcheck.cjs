@@ -183,6 +183,7 @@ const config = {
               ...SKIP_WORDS,
               'ann',
               'atinlay',
+              'codewa',
               'disemvowel',
               'dlrow',
               'ello',
@@ -211,6 +212,7 @@ const config = {
               'tringsay',
               'tte',
               'tter',
+              'wa',
               'wbst',
               'ymay'
             ]
