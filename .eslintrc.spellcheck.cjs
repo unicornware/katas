@@ -205,6 +205,7 @@ const config = {
               'ringo',
               'rolf',
               'scks',
+              'sg',
               'siay',
               'tay',
               'ths',
