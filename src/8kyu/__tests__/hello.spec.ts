@@ -10,8 +10,11 @@ describe('unit:katas/8kyu/hello', () => {
   interface Case extends TestcaseFn<typeof testSubject> {}
 
   const cases: Case[] = [
-    { expected: 'hello world!', parameters: [] },
-    { expected: 'hello pluto!', parameters: ['pluto'] }
+    { expected: 'Hello, John!', parameters: ['johN', true] },
+    { expected: 'Hello, Alice!', parameters: ['alice', true] },
+    { expected: 'hello pluto!', parameters: ['pluto', false] },
+    { expected: 'hello world!', parameters: [undefined, false] },
+    { expected: 'Hello, World!', parameters: [undefined, true] }
   ]
 
   cases.forEach(({ expected, parameters }) => {
