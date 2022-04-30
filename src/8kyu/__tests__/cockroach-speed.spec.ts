@@ -18,7 +18,7 @@ describe('unit:katas/8kyu/cockroachSpeed', () => {
 
   cases.forEach(({ expected, parameters }) => {
     it(`should return ${expected} given ${pf(parameters)}`, () => {
-      expect(testSubject(...parameters)).to.deep.equal(expected)
+      expect(testSubject(...parameters)).to.equal(expected)
     })
   })
 })
