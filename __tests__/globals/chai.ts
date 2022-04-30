@@ -26,4 +26,5 @@ chai.use(each)
 
 // Update global namespace
 global.chai = chai
+global.assert = chai.assert
 global.expect = chai.expect

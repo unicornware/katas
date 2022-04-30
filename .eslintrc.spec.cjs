@@ -27,6 +27,7 @@ const config = {
   globals: {
     after: true,
     afterEach: true,
+    assert: true,
     before: true,
     beforeEach: true,
     chai: true,

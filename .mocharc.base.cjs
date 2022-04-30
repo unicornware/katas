@@ -36,6 +36,7 @@ const config = {
   forbidPending: false,
   fullTrace: true,
   globals: [
+    'assert',
     'chai',
     'echo',
     'expect',
