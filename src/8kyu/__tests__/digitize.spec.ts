@@ -16,7 +16,7 @@ describe('unit:katas/8kyu/digitize', () => {
   ]
 
   cases.forEach(({ expected, parameters }) => {
-    it(`should return ${expected} given ${pf(parameters)}`, () => {
+    it(`should return ${pf(expected)} given ${pf(parameters)}`, () => {
       expect(testSubject(...parameters)).to.deep.equal(expected)
     })
   })
