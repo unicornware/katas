@@ -95,6 +95,8 @@ const SKIP_WORDS = [
   'loadenv',
   'matcher',
   'matchers',
+  'meerkat',
+  'meerkats',
   'mjs',
   'msg',
   'multiline',
