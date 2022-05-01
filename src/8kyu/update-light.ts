@@ -29,10 +29,10 @@ export enum TrafficLightState {
  * @return {TrafficLightState} Next traffic light state
  */
 const updateLight = (current: string): TrafficLightState => {
-  switch (true) {
-    case current === TrafficLightState.GREEN:
+  switch (current) {
+    case TrafficLightState.GREEN:
       return TrafficLightState.YELLOW
-    case current === TrafficLightState.RED:
+    case TrafficLightState.RED:
       return TrafficLightState.GREEN
     default:
       return TrafficLightState.RED
