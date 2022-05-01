@@ -81,6 +81,7 @@ const SKIP_WORDS = [
   'impl',
   'indivisibilities',
   'instanceof',
+  'ish',
   'isogram',
   'jaden',
   'jane',
