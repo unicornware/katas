@@ -79,6 +79,7 @@ const SKIP_WORDS = [
   'haversine',
   'ig',
   'impl',
+  'indivisibilities',
   'instanceof',
   'isogram',
   'jaden',
@@ -188,8 +189,10 @@ const config = {
             ...OPTIONS,
             skipWords: [
               ...SKIP_WORDS,
+              'aab',
               'arepo',
               'atinlay',
+              'bcde',
               'codewa',
               'disemvowel',
               'dlrow',
